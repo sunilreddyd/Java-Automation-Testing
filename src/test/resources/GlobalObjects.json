@@ -1,0 +1,17 @@
+{
+	"Web-Format":{
+		"application name": "IKA",	"version": 1.0,	"type": "Web Application",
+		"MemberInfo-Page1":{
+			"MemberID":		{"description":"filed id", "type":"id"},
+			"MemberID1":	{"description":"filed name", "type":"name"}
+		}
+	},
+	
+	"TE-Format":{
+		"application name": "3270",	"version": 1.0,	"type": "Terminal Application",
+		"ScreenName":{
+			"Filed1":	{"text": "ClickText", "row":15,	"column":5}
+		}
+	}
+	
+}

@@ -86,6 +86,8 @@ public class WebDriverUtil implements WebUtil {
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("start-maximized");
 			chromeOptions.addArguments("test-type");
+			chromeOptions.addArguments("chrome.switches");
+			chromeOptions.addArguments("--disable-extensions");
 			return (new ChromeDriver(chromeOptions));
 		}
 		return null;

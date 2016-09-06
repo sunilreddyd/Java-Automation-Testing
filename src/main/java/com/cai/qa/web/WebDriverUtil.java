@@ -478,6 +478,7 @@ public class WebDriverUtil implements WebUtil {
 	 */
 	public boolean checkAlertExistance() {
 		try {
+			@SuppressWarnings("unused")
 			Alert alert = this.browserObject.switchTo().alert();
 			return true;
 		} catch (Exception e) {
